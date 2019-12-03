@@ -53,5 +53,33 @@ public class Main {
         if ((topScore > 90) || (secondTopScore <= 90)) {
             System.out.println("Either or both of the conditions are true");
         }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (isCar) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        isCar = true;
+        boolean wasCar = isCar ? true : false;
+        if (wasCar) {
+            System.out.println("wasCar is true");
+        }
+
+        double firstValue = 20.00d;
+        double secondValue = 80.00d;
+        double total = (firstValue + secondValue) * 100d;
+        System.out.println("Total = " + total);
+        double remainder = total % 40.00d;
+        System.out.println("Remainder = " + remainder);
+        boolean noRemainder = (remainder == 0) ? true : false;
+        System.out.println("noRemainder = " + noRemainder);
+        if (!noRemainder) {
+            System.out.println("Got some remainder");
+        }
     }
 }
