@@ -1,6 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        TeenNumberChecker.hasTeen(9, 99, 19);
+        TeenNumberChecker.isTeen(13);
     }
 }
