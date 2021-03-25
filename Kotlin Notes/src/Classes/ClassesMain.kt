@@ -1,3 +1,5 @@
+package Classes
+
 fun main(args: Array<String>) {
     val patrick = Player("Patrick")
 //    println(tim.name)
@@ -10,7 +12,7 @@ fun main(args: Array<String>) {
     dawn.show()
 
     val gr8 = Player("gr8", 4, 8)
-    val one2watch = Player("Ace",2, 5, 1000)
+    val one2watch = Player("Ace", 2, 5, 1000)
     gr8.show()
     one2watch.show()
 }
